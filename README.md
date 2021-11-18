@@ -1,5 +1,5 @@
 # Puzzle U memory 
-<img src= "https://imgur.com/NI60vmJ"/>
+<img src= "https://i.imgur.com/NI60vmJ.jpg"/>
 
 #### Date of creation: Nov.17.2021
 ### By: Gihae Choi
