@@ -1,5 +1,5 @@
 # Shape Invader
-![Alt Text] ("https://i.pinimg.com/564x/dc/94/39/dc94393cef2f4cef7d40fd33f2f768c7.jpg")
+<img src= "https://i.pinimg.com/564x/dc/94/39/dc94393cef2f4cef7d40fd33f2f768c7.jpg"/>
 
 #### Date of creation: Nov.17.2021
 ### By: Gihae Choi
