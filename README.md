@@ -6,7 +6,7 @@
 
 ***
 ### ***Description***
-#### **_Puzzle U Memory_** is a written game in Javascript. It begins with a player to match a pair of two cards of the same image. The trick is to remember which cards are where. Once click to match, those blocks will automatically remove from the game box. Winners can fianlly see the hidden image from the game box.
+#### **_Puzzle U Memory_** is a written game in Javascript. It begins with a player to match a pair of cards within the same image. The trick is to remember which cards are where. Once click to match, those blocks will automatically remove from the game box. Winners can fianlly see the hidden image from the game box.
 
 ***
 
