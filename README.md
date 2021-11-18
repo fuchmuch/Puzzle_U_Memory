@@ -30,7 +30,7 @@
 - [ ] add color theme, shapes
 - [ ] add sound effects
 - [ ] add functions 
-- [ ] add buttons with notifications: 'start','restart','game over', 'scores'
+- [ ] add buttons with notifications: ex)'start','restart'
 
 ***
 
