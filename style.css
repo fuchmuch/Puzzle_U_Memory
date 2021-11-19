@@ -1,14 +1,17 @@
-@font-face {
-    font-family: FastFuriousFont;
-    src: url(Antique-Olive-Std-Nord-Italic.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+
+
+
+
+
 
 
 header{  
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     color:cornflowerblue;
     margin: 2rem 0px;
+    font-family: 'Road Rage', cursive;
 
 }
 
@@ -17,8 +20,8 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    width: 500px;
-    height: 500px;
+    width: 400x;
+    height: 400px;
     border: solid black 2px;
     
 }
