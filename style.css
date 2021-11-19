@@ -8,19 +8,19 @@
 
 header{  
     text-align: center;
-    font-size: 40px;
-    color:cornflowerblue;
+    font-size: 80px;
+    color:rgb(255, 180, 192);
     margin: 2rem 0px;
     font-family: 'Road Rage', cursive;
     font-weight: strong;
 }
 
 body{ 
-    background:rgb(255, 224, 201)
+    background: white;
 }
 
 
-.cardBlocks{
+.container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -29,12 +29,16 @@ body{
     height: 640px;
     border: 3px solid black;
     margin: auto;
+    background-image: url('https://i.imgur.com/tH3szbt.jpg');
     
 }
 .cards{
     border-radius: 2px solid black;
 }
 
+.blankFront{
+    position: relative;
+}
 
 
 
