@@ -19,6 +19,21 @@ body{
     background: white;
 }
 
+.cards{
+    height: 200px;
+    width: 200px;
+    background-color: url(frontcard1.jpg);  
+    /* when imported */
+    border: 2px solid black;
+   
+}
+
+.flipped-card{
+    height: 200px;
+    width: 200px;
+    background-color: url(frontcard2.jpg);
+    border: 2px solid black;
+}
 
 .container{
     display: flex;
@@ -29,16 +44,22 @@ body{
     height: 640px;
     border: 3px solid black;
     margin: auto;
-    background-image: url('https://i.imgur.com/tH3szbt.jpg');
-    
-}
-.cards{
-    border-radius: 2px solid black;
+    background-image: url("https://c.tenor.com/dby5UbmKt90AAAAd/ripndip-monalisa.gif"); 
+ 
 }
 
-.blankFront{
-    position: relative;
-}
+
+
+
+
+/* .puzzle{
+position:relative;
+width: 200px;
+height: 200px;
+padding: 20px;
+ 
+} */
+
 
 
 

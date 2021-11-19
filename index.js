@@ -1,4 +1,18 @@
-const gameBox = document.querySelector('.cardBox')
+
+let card = document.querySelector(".cards")
+
+card.addEventListener('click', (e) => {
+e.currentTarget.classList.toggle("flipped-card")
+
+
+
+console.log(card);
+
+});
+
+
+// const gameBox = document.querySelector('.container');
+
 
 
 ///
