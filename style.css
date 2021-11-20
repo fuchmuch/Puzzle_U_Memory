@@ -20,26 +20,40 @@ body{
 }
 
 .cards{
-    height: 200px;
-    width: 200px;
-    background-color: url(frontcard1.jpg);  
-    /* when imported */
+    height: 160px;
+    width: 160px;
+    background-image: url("images/frontcard1.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
     border: 2px solid black;
-   
 }
 
-.flipped-card{
-    height: 200px;
-    width: 200px;
-    background-color: url(frontcard2.jpg);
+.flipped-cards{
+    height: 160px;
+    width: 160px;
+    background-image: url("images/shiba_inu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border: 2px solid black;
 }
+
+/* #bichon1{
+    height: 200px;
+    width: 200px;
+    background-image: url("images\ bichon.jpgbichon.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    border: 2px solid black;
+} */
 
 .container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     width: 640px;
     height: 640px;
     border: 3px solid black;
@@ -47,8 +61,6 @@ body{
     background-image: url("https://c.tenor.com/dby5UbmKt90AAAAd/ripndip-monalisa.gif"); 
  
 }
-
-
 
 
 
