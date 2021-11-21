@@ -27,27 +27,30 @@ body{
     background-position: center;
     background-size: cover; 
     border: 2px solid black;
+    transition: opacity 4s;
 }
+
+
 
 .flipped-cards{
     height: 160px;
-    width: 160px;
-    background-image: url("images/shiba_inu.jpg");
+    width: 160px; 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border: 2px solid black;
+   
+  
+}
+/* 
+//create class for a pair of card add animation to fade away hide inside of image */
+
+.pair{
+  
+opacity: 0;
+
 }
 
-/* #bichon1{
-    height: 200px;
-    width: 200px;
-    background-image: url("images\ bichon.jpgbichon.jpg"); 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
-    border: 2px solid black;
-} */
 
 .container{
 
@@ -59,7 +62,7 @@ body{
     border: 3px solid black;
     margin: auto;
     background-image: url("https://c.tenor.com/dby5UbmKt90AAAAd/ripndip-monalisa.gif"); 
- 
+
 }
 
 
