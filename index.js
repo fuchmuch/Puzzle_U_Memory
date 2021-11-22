@@ -4,6 +4,9 @@
 // e.currentTarget.classList.toggle("flipped-cards")
 // console.log(card);
 // });
+
+
+
 let container = document.querySelector(".container");
  
 class Cell{
@@ -144,7 +147,8 @@ setTimeout(()=>{
 
 
 
-
+// const btn = document.querySelector("button");
+// btn.addEventListener("click", updateBtn);
 
 
 
