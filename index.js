@@ -6,7 +6,6 @@
 // });
 
 
-
 let container = document.querySelector(".container");
  
 class Cell{
@@ -16,7 +15,6 @@ class Cell{
     }
 }
 
-
 class Card {
     pair = false;
     hasBeenAdded = false;
@@ -24,7 +22,7 @@ class Card {
         this.imageName= imageName
     }
 }
-//create class for all puppies
+//class for all puppies
 //class for the card
 const bichon = new Card ("images/bichon.jpg");
 const americanEskimo = new Card ("images/american_eskimo.jpg");
@@ -37,12 +35,12 @@ const bulldog = new Card ("images/bulldog.jpg")
 
 const puppies = [ bichon, americanEskimo, bostonTerrier,dachshund, poodle, shiba, yokshirTerrier,bulldog];
 const cells = [];
-//create function
+
 const getRandomCell = ()=> {
     return 
 }
 
-//make variable for loop
+// variables for loop
 //each time it runs making card -> give class, put into container.
 
 for (let i=0; i < 16; i++){
@@ -51,17 +49,13 @@ for (let i=0; i < 16; i++){
     card.classList.add("cards");
     container.appendChild(card);
     let cell = new Cell() 
-    //calls the function above (class Cell part), calls the constructor function for the cell class.
+
     cells.push(cell)
 //card= back card =puppy images
-
- //while loop : to find random cell on the grid; continue looping until we find a cell
 }
-let cards = document.querySelectorAll(".cards") //front card
-////created all div, new cell which can hold the cards
+let cards = document.querySelectorAll(".cards") 
 const getRandomPuppy= () =>{
     return puppies[ Math.floor(Math.random() * puppies.length)]
-    //math.floor control math.random (has to be whole #)
 }
 
 for (let i=0; i< cells.length; i++){
@@ -94,12 +88,7 @@ for (let i=0; i< cells.length; i++){
 ////////////////////////////////all the pairs all set up
 //flip
 
-// const gameBox = document.querySelector('.container');
-// let card = document.querySelector(".cards")
-// card.addEventListener('click', (e) => {
-// e.currentTarget.classList.toggle("flipped-cards")
-// console.log(card);
-// });
+
 let storedCard;
 let storedDiv;
 
@@ -135,28 +124,33 @@ storedDiv = currentDiv
 };
 
 
-//check to see if it pairs 
-
-setTimeout(()=>{
-    console.log("Hello")
-}, 5000);
+/////////function for replay by clicking button to bring bakc all cards again////////
 
 
+const restartButton = document.querySelector('.button')
+
+let playing= false; 
+
+//////check with forloop
+
+ const restartGame = () => {
+
+        location.reload()
+  }
 
 
-
-
-
-// const btn = document.querySelector("button");
-// btn.addEventListener("click", updateBtn);
-
-
-
-////clear off match cards
+restartButton.addEventListener('click', restartGame) 
 
 
 
 
 
 
-///show a hidden image with notification of winning message
+//////////////////////////navigation part//////////////////////
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
