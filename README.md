@@ -14,7 +14,7 @@
 
 ![Alt Text](https://ohjoy.blogs.com/.a/6a00d8341c6a0853ef0240a451bae0200c-pi)
 
-(As a reference for now: will be replaced with original version once it's done)
+(As a reference of a game)
 
 ***
 

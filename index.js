@@ -1,15 +1,8 @@
-// const gameBox = document.querySelector('.container');
-// let card = document.querySelector(".cards")
-// card.addEventListener('click', (e) => {
-// e.currentTarget.classList.toggle("flipped-cards")
-// console.log(card);
-// });
-
 
 let container = document.querySelector(".container");
  
 class Cell{
-    card; //each cell has a property of a card
+    card; 
     constructor(){
 
     }
@@ -63,10 +56,9 @@ for (let i=0; i< cells.length; i++){
 
 
     let randomPuppy = getRandomPuppy() 
-    //ref to the above function of getRandomPuppy how it create randomly placing each card
-    //conditional statement
+    
     while(randomPuppy.hasBeenAdded && randomPuppy.pair){
-        //asking whether it's already added or not
+       
     randomPuppy = getRandomPuppy()
     }
     currentCell.card = randomPuppy;
@@ -95,16 +87,15 @@ let storedDiv;
 for (let i=0; i< cards.length; i++){
 let currentDiv = cards[i]
 currentDiv.addEventListener('click',()=>{
-//   currentDiv.classList.toggle("flipped-cards")
+
 currentDiv.style.background = `url(${cells[i].card.imageName})`
-// console.log(`${cells[i].card.imageName}`)
+
 if (storedCard !== undefined && cells[i].card === storedCard && currentDiv !== storedDiv && storedDiv !== undefined){
- ///////////simplify this long eq
+
     
     storedDiv.classList.add("pair")
     currentDiv.classList.add("pair")
-    // storedDiv.removeAttribute("style")
-    // currentDiv.removeAttribute("style")
+  
     storedCard = undefined 
     storedDiv = undefined
     return

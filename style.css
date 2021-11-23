@@ -161,3 +161,22 @@ opacity: 0;
     right: 35px;
     }
   }
+
+iframe{
+    margin-left: 1000px;
+}
+
+
+h1,p{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Road Rage', cursive;
+    font-weight: 200;
+    color:white;
+    -webkit-text-stroke: 0.5px black;
+    margin: 2rem 0px;   
+    letter-spacing: 0.1em;
+}
+p{
+font-size: 30px;
+}
